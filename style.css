@@ -1,3 +1,27 @@
-h1, h2 {
-  font-family: Lato;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar {
+  width: 3.5rem;
+  z-index: 100000;
+}
+
+.sidebar-nav {
+  height: calc(100vh - 3rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-container {
+  height: calc(100% - 30px);
+}
+
+.sidebar-container .vertical-list {
+  list-style-type: none;
 }
